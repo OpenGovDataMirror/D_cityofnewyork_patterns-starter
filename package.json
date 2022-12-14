@@ -1,0 +1,20 @@
+{
+  "name": "@nycopportunity/create-pttrn-starter",
+  "nice": "Patterns Starter",
+  "version": "1.0.3",
+  "description": "Creates a @nycopportunity/pttrn CLI starter project",
+  "author": "products@nycopportunity.nyc.gov",
+  "license": "GPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CityOfNewYork/patterns-starter.git"
+  },
+  "bin": "bin/starter.js",
+  "scripts": {
+    "version": "git add .",
+    "prepublishOnly": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "@nycopportunity/pttrn": "^1.0.0"
+  }
+}
